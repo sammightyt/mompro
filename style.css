@@ -1,0 +1,51 @@
+.hangman-container {
+  background-repeat: no-repeat;
+    background-position: center;
+    background-color:bisque;
+    background-size: contain;
+}
+
+
+.hangman-container[data-level="0"] {
+    background-image: url('https://raw.githubusercontent.com/utkarshtrivedi/assets/master/images/0.png');  
+}
+.hangman-container[data-level="1"] {
+    background-image: url('https://raw.githubusercontent.com/utkarshtrivedi/assets/master/images/1.png');  
+}
+.hangman-container[data-level="2"] {
+    background-image: url('https://raw.githubusercontent.com/utkarshtrivedi/assets/master/images/2.png');  
+}
+.hangman-container[data-level="3"] {
+    background-image: url('https://raw.githubusercontent.com/utkarshtrivedi/assets/master/images/3.png');  
+}
+.hangman-container[data-level="4"] {
+    background-image: url('https://raw.githubusercontent.com/utkarshtrivedi/assets/master/images/4.png');  
+}
+.hangman-container[data-level="5"] {
+    background-image: url('https://raw.githubusercontent.com/utkarshtrivedi/assets/master/images/5.png');  
+}
+.hangman-container[data-level="6"] {
+    background-image: url('https://raw.githubusercontent.com/utkarshtrivedi/assets/master/images/6.png');  
+}
+.hangman-container[data-level="7"] {
+    background-image: url('https://raw.githubusercontent.com/utkarshtrivedi/assets/master/images/7.png');  
+}
+.hangman-container[data-level="8"] {
+    background-image: url('https://raw.githubusercontent.com/utkarshtrivedi/assets/master/images/8.png');  
+}
+.hangman-container[data-level="9"] {
+    background-image: url('https://raw.githubusercontent.com/utkarshtrivedi/assets/master/images/9.png');  
+}
+.game-dashboard {
+  padding-top:20px;
+}
+
+.game-dashboard.row {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.row .column {
+  height:250px;
+}
