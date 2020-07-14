@@ -1,3 +1,8 @@
-h1, h2 {
-  font-family: Lato;
+.container{
+  background-repeat: no-repeat;
+    background-position: center;
+    background-color:bisque;
+    background-size: contain;
+    width: 200px;
+    length: 200px;
 }
